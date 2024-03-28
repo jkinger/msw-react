@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/msw-react",
   plugins: [react()],
+  build: {
+    sourcemap: true
+  }
 })
